@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+echo "Checking out $1"
+gh pr checkout -f $1
+echo "Creating Brian's PR"
+git push --set-upstream -f
+BRIAN_PR=$(gh pr create --title "$(gh pr view $1 --json title --jq .title)" --body "$(gh pr view $1 --json body --jq .body)" -R brianchandotcom/liferay-portal)
+sleep 2
+gh pr comment $BRIAN_PR --body "ci:reopen"
+echo "Closing $1"
+gh pr close $1 --comment "$BRIAN_PR"
+echo $BRIAN_PR
