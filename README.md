@@ -1,5 +1,7 @@
 # `gh brian 🧑🏻‍💻` GitHub CLI extension
 
+Replaced by **ci:forward:force**.
+
 [GitHub CLI](https://github.com/cli/cli) extension to manually forward pull requests to Brian.
 
 ## Installation
