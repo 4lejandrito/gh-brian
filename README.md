@@ -1,6 +1,6 @@
 # `gh brian 🧑🏻‍💻` GitHub CLI extension
 
-**DEPRECATED!!** Replaced by [cliferay brian \<pr url\>](4lejandrito/cliferay).
+**DEPRECATED!!** Replaced by [cliferay brian \<pr url\>](https://github.com/4lejandrito/cliferay).
 
 [GitHub CLI](https://github.com/cli/cli) extension to manually forward pull requests to Brian.
 
