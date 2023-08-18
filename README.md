@@ -1,6 +1,6 @@
 # `gh brian 🧑🏻‍💻` GitHub CLI extension
 
-Replaced by **ci:forward:force**.
+**DEPRECATED!!** Replaced by [cliferay brian \<pr url\>](4lejandrito/cliferay).
 
 [GitHub CLI](https://github.com/cli/cli) extension to manually forward pull requests to Brian.
 
